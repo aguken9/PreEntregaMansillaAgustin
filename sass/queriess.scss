@@ -1,0 +1,142 @@
+/* condicionales utilizados al final*/
+
+@media screen and (min-width: 768px) {
+    .buttons {
+      min-width: 700px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+      height: 120px;
+      flex-wrap: wrap;
+    }
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+  
+  
+    .titulo h2 {
+      font-size: 20px;
+      color: lightblue;
+    }
+    .card-text {
+      font-size: 14px;
+      color: red;
+    }
+  
+    .subtitulo h2 {
+      font-size: 20px;
+    }
+  
+    .lista {
+      font-size: 20px;
+    }
+  
+    .titulo--principal h2 {
+      font-size: 30px;
+      color: lightblue;
+   }
+  
+    .blockquote p{
+      font-size: 22px;
+    }
+    .titulo h2 {
+      font-size: 20px;
+    }
+  
+    .accordion-button {
+      font-style: italic;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .accordion-body {
+      color: blue;
+      font-size: 20px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .titulo h2 {
+      font-size: 20px;
+      color: lawngreen;
+   }
+  
+   .titulo h2 {
+    font-size: 20px;
+  }
+  
+  .accordion-button {
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .accordion-body {
+    color: a;
+    font-size: 20px;
+  }
+  }
+
+  $vista: celular;
+  celular {
+    @if $vista == desktop {
+        @media (min-width: 1024px) {
+            .titulo h2 {
+              font-size: 20px;
+              color: lawngreen;
+           }
+          
+           .titulo h2 {
+            font-size: 20px;
+          }
+          
+          .accordion-button {
+            font-style: italic;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          }
+          .accordion-body {
+            color: a;
+            font-size: 20px;
+          }
+          }
+    } @else if $vista == mobile {
+        @media screen and (max-width: 768px) {
+  
+  
+            .titulo h2 {
+              font-size: 20px;
+              color: lightblue;
+            }
+            .card-text {
+              font-size: 14px;
+              color: red;
+            }
+          
+            .subtitulo h2 {
+              font-size: 20px;
+            }
+          
+            .lista {
+              font-size: 20px;
+            }
+          
+            .titulo--principal h2 {
+              font-size: 30px;
+              color: lightblue;
+           }
+          
+            .blockquote p{
+              font-size: 22px;
+            }
+            .titulo h2 {
+              font-size: 20px;
+            }
+          
+            .accordion-button {
+              font-style: italic;
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            .accordion-body {
+              color: blue;
+              font-size: 20px;
+            }
+          }
+    }
+  }

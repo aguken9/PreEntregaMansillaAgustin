@@ -1,0 +1,24 @@
+@keyframes text {
+    0% {
+      filter: hue-rotate(0deg)
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+  
+@keyframes cambio {
+    0% { margin-left:0;}
+    20% { margin-right:0;}
+  
+    25% { margin-left:-100%;}
+    45% { margin-right:-100%;}
+  
+    50% { margin-left:-200%;}
+    70% { margin-right:-200%;}
+  }
+  
+@keyframes rotacion{
+    from {transform: rotateZ(0deg);}
+    to {transform: rotateZ(360deg);}
+}

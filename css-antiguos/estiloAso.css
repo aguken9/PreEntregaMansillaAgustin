@@ -39,41 +39,6 @@ body {
     font-size: 55px;
  }
 
-
-.form-registro h4 {
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-.form-registro {
-    width: 600px;
-    background: #24303c ;
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
-    color: white;
-    flex-wrap: wrap;
-}
-
-
-
-
-
-.footer1 {
-  justify-items: center;
-}
-
-.form-registro .boton  {
-    width: 100px;
-    border:none;
-    background: #1f53c5;
-    padding: 12px;
-    color: white;
-    margin: 16px 0;
-    font-size: 16px;
-}
-
 .controles {
     width: 100%;
     background: #24303c;
@@ -113,14 +78,13 @@ body {
     transform: scale(1.2);
   }
 
-
   .animate__animated .animate__bounce {
     display: inline-block;
     margin: 0 0.5rem;
     animation: bounce;
     animation-duration: 20s;
   }
-
+ 
   h2 {
     list-style: none;
     padding-left: 10px;
@@ -128,6 +92,7 @@ body {
     color: white;
   }
 
+  
 
   .img--listas {
     width: 100%;
@@ -155,16 +120,16 @@ body {
 }
 
 @keyframes cambio {
-    0% { margin-left:0;}
-    20% { margin-right:0;}
+  0% { margin-left:0;}
+  20% { margin-right:0;}
 
-    25% { margin-left:-100%;}
-    45% { margin-right:-100%;}
+  25% { margin-left:-100%;}
+  45% { margin-right:-100%;}
 
-    50% { margin-left:-200%;}
-    70% { margin-right:-200%;}
+  50% { margin-left:-200%;}
+  70% { margin-right:-200%;}
 }
- 
+
 
 
 @media screen and (min-width: 768px) {
